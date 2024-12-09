@@ -20,7 +20,7 @@ const App = () => {
 	<CelsiusToFahrenheit celsius={100}></CelsiusToFahrenheit>
 	<FahrenheitToCelsius fahrenheit={212}></FahrenheitToCelsius>
 	<TotalPrice getPrice={100}/>
-	<WriteMessage name={"Xavier"} material={"zapatos"} size={"mediano"} note={"Dejar en el buzón"}/>
+	<WriteMessage name="Xavier" material="zapatos" size="mediano" note="Dejar en el buzón"/>
 	</>)
 };
 
