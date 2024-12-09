@@ -1,5 +1,5 @@
-const WriteMessage = ({name,material,size,note}) => {
-    return <h2>{name} ha pedido una caja de {material} de tamaño {size}. {note}</h2>
+const WriteMessage = props => {
+    return <h2>{props.name} ha pedido una caja de {props.material} de tamaño {props.size}. {props.note}</h2>
 }
 
 export default WriteMessage
