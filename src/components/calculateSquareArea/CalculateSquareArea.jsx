@@ -1,5 +1,5 @@
-const CalculateSquareArea = ({base,heigh}) => {
-    const area = base * heigh
+const CalculateSquareArea = ({base,height}) => {
+    const area = base * height
     return <h2> El área del cuadrado es: {area}</h2>
 }
 

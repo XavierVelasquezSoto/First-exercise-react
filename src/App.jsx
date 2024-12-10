@@ -10,8 +10,8 @@ import WriteMessage from "./components/writeMessage/WriteMessage";
 const App = () => {
 	return (<> 
 	<SayHello>Xavier</SayHello>
-	<CalculateSquareArea base={15} heigh={15}></CalculateSquareArea>
-	<CalculateTriangleArea base={20} heigh={20}></CalculateTriangleArea>
+	<CalculateSquareArea base={15} height={15}></CalculateSquareArea>
+	<CalculateTriangleArea base={20} height={20}></CalculateTriangleArea>
 	<CalculateCircleArea radius={13}></CalculateCircleArea>
 	<CelsiusToFahrenheit celsius={100}></CelsiusToFahrenheit>
 	<FahrenheitToCelsius fahrenheit={212}></FahrenheitToCelsius>
