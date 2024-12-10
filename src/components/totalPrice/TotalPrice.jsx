@@ -1,7 +1,7 @@
 const TotalPrice = ({getPrice}) => {
     const iva = 21 / 100
     const priceWithIva = getPrice + (getPrice * iva) 
-    console.log(priceWithIva)
+    // console.log(priceWithIva)
     return <h2> El precio con iva es: {priceWithIva}</h2>
 }
 
