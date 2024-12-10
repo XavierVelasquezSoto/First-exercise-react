@@ -4,3 +4,9 @@ const CalculateSquareArea = ({base,heigh}) => {
 }
 
 export default CalculateSquareArea
+
+// const CalculateSquareArea = (props) => {
+//     return <h2> El área del cuadrado es: {props.base * props.heigh}</h2>
+// }
+
+// export default CalculateSquareArea
